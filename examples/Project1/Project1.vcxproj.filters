@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Keytaps">
+      <UniqueIdentifier>{da192579-a04d-42f7-a620-2a65a2192c2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\.gitignore">
+      <Filter>Keytaps</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\.gitmodules">
+      <Filter>Keytaps</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\build-vars.h.in">
+      <Filter>Keytaps</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\index-keytap2-gui-tmpl.html">
+      <Filter>Keytaps</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\LICENSE">
+      <Filter>Keytaps</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\README.md">
+      <Filter>Keytaps</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\style.css">
+      <Filter>Keytaps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\audio_logger.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\common.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\common-gui.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\generate-clusters.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\guess_qp.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\guess_qp2.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\key_average_gui.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\key_detector.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\key_logger.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\keytap.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\keytap2.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\keytap2-gui.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\keytap2-gui-old.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\keytap-gui.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\non-exact-subbreak.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\non-exact-subbreak2.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\play.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\play-full.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\record.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\record-full.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\scale.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\subbreak.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\subbreak2.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\view-full-gui.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\view-gui.cpp">
+      <Filter>Keytaps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\audio_logger.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\common.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\common-gui.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\constants.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\imconfig-vtx32.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\key_logger.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\subbreak.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\subbreak2.h">
+      <Filter>Keytaps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\Downloads\kbd-audio-master (1)\kbd-audio-master\CMakeLists.txt">
+      <Filter>Keytaps</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
